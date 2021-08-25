@@ -1,0 +1,38 @@
+#namespace: in c++ not c
+	# declarative region that provides a scope to the identifiers
+	(names of the type, functions, variables etc) inside it.
+	# can be nested with another namespace
+
+	# prefix increments the value, and then proceeds with expression
+	# postfix evaluates the expression and then performs the incrementing 
+	# do while: you can take input from user, then check it.If the input is wrong, you can
+	  take it again.
+
+	 # fall-through: with no specfied break statement, the statements continuing to run after 
+	   the matching case, resulted in printing all the other case statements. 
+
+	 # <string> belongs to <iostream>
+	 # if a boolean value is assigned to an integer, true becomes 1 and false becomes 0.
+	 # if a integer value is assigned to a boolean, 0 becomes false and any value 
+	   that has a non-zero value becomes true.
+	 
+	 # address-of opearator (&): returns the memory address of its operand.
+	 # contents-of(or dereference) operator (*): returns the value of the variable
+	   located at the address specfied by its operand 
+
+	 # function declaration is required when you define a function in one source file and you
+	   call that function in another file, in such case you should declare the function at the  
+	   top of the file calling the function
+
+	 # vectors are same as dynamic arrays with ability to resize itself automatically 
+	   when an element is inserted or deleted
+	 # vector elements are placed in contiguous storage so that they can be accessed and 
+	   traversed using iterators, in vectors data is inserted at the end, inserting at the 
+	   end takes differential time, at sometimes there may be a need of extending the array 
+	   removing and adding last element takes constant time because no resizing is done
+	   inserting or removing at the begining or in the middle takes linear time 
+	   
+
+
+
+

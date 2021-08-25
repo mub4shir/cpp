@@ -1,0 +1,27 @@
+#http is core node module 
+#header object connection: 'Keep-alive' => means we can have multiple http req and res.
+#Content-type: client knows what kind of resourse to send for example text/plain,  text/html or application/json(offical data if you r using json)
+#JSON.stringify(); : conversion to json string
+# status codes go from 100 to 500 range and each range has ha specfic meaning 
+100 range is informational : these are codes that will fire off when its basically 
+processing before the responses is fulfilled 
+200 range is success
+201 Created : insert something into database then u would most likely return 201
+when it was sucessful and also something was created
+204 No Content : making a DELETE req and deleting something off the server you would return a 204 res
+301 series is redirection : something is moved 
+304 Not modified  : if you make a GET req and then u make it again nothing is changed on the server you might get 304
+400 series is client error : something went wrong and its the clients fault  
+400 : Bad Request: form validation errors will be 400 
+401 : Unauthorized 
+404 : Not Found : 
+500 series  is server error 
+500 : Internal Server Error
+
+# to send data in the body we have to listen to request http module 
+	req is a readable stream 
+
+
+
+
+
